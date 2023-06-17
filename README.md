@@ -1,18 +1,16 @@
-**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**
+# Admission criteria
 
-# Критерии приема
+- The repository `goit-js-hw-04` has been created
+- When submitting homework, there is a link to the source files in the repository
+- Each task is executed in a separate file named `task-task_number.js`.
+  Use `<script type="module">` to close the task code in a separate
+scope and avoid identifier name conflicts.
+- The names of variables and functions are clear, descriptive
+- The code is formatted with Prettier
 
-- Создан репозиторий `goit-js-hw-04`
-- При сдаче домашней работы есть ссылка на исходные файлы в репозитории
-- Каждое задание выполнено в отдельном файле с именем `task-номер_задания.js`.
-  Используй `<script type="module">` чтобы закрыть код задания в отдельной
-  области видимости и избежать конфликтов имен идентификаторов.
-- Имена переменных и функций понятные, описательные
-- Код отформатирован с помощью Prettier
+# Task 1
 
-# Задание 1
-
-Расставь отсутствующие `this` в методах объекта `account`.
+Arrange the missing `this` in the methods of the `account` object.
 
 ```js
 const account = {
@@ -42,9 +40,9 @@ console.log(account.balance); // 19000
 console.table(account.showOrders()); // ['order-1', 'order-2', 'order-3', 'order-4']
 ```
 
-# Задание 2
+# Task 2
 
-Исправь ошибки которые будут в консоли, чтобы скрипт заработал.
+Fix the errors that will be in the console so that the script works.
 
 ```js
 const inventory = {
